@@ -1,6 +1,6 @@
-function yn = mpegDFT(sn,Fs,tSec)
+aafunction yn = mpegDFT(sn,Fs,tSec)
 
-    % window length based on tSec
+    % window length based on tSec.
     WL = round(Fs*tSec);
     
     % maximum amount of windows that can fit into input signal
